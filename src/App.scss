@@ -1,0 +1,43 @@
+@import './css/colors.scss';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100%;
+}
+
+html {
+  height: 100%;
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: $very-dark-blue;
+  background-image: url(./resources/bg-desktop.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+@media (max-width: 520px) {
+  body {
+    background-image: url(./resources/bg-mobile.png);
+    background-size: 100% 100%;
+  }
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

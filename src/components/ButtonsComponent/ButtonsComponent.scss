@@ -1,0 +1,44 @@
+@import '../../css/colors.scss';
+
+.buttons-container {
+  height: 200px;
+  min-width: 325px;
+  background-color: $dark-blue;
+  border-radius: 1rem 6rem 1rem 1rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+
+  .fylo-image {
+    background-repeat: no-repeat;
+    height: 33%;
+    width: 135px;
+    margin-bottom: 2rem;
+  }
+
+  .button-container {
+    display: flex;
+    button {
+      width: 48px;
+      height: 48px;
+      margin-right: 1rem;
+      background-color: $very-dark-blue;
+      border-radius: 0.5rem;
+      border: none;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .new-button {
+      background-image: url('../../resources/icon-document.svg');
+    }
+
+    .files-button {
+      background-image: url('../../resources/icon-folder.svg');
+    }
+
+    .upload-button {
+      background-image: url('../../resources/icon-upload.svg');
+    }
+  }
+}

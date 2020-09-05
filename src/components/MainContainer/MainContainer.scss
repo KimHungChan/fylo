@@ -1,0 +1,15 @@
+.main {
+  height: 100%;
+  padding-bottom: 3rem;
+}
+
+.main-container {
+  margin: 1rem;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 375px) {
+  .main-container {
+    flex-direction: column;
+  }
+}
