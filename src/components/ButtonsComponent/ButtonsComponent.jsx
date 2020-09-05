@@ -7,9 +7,9 @@ const ButtonsComponent = () => {
     <div className='buttons-container'>
       <img className='fylo-image' src={logo} alt='Flyo Logo'></img>
       <div className='button-container'>
-        <button name='title' className='new-button'></button>
-        <button name='title' className='files-button'></button>
-        <button name='title' className='upload-button'></button>
+        <button title='new-button' className='new-button'></button>
+        <button title='files-button' className='files-button'></button>
+        <button title='upload-button' className='upload-button'></button>
       </div>
     </div>
   );
