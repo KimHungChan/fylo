@@ -2,6 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## LIVE VERSION HERE:
 https://fylo-rho-flame.vercel.app/
+Disclaimer: Design for screen sizes - Desktop: 1440px, Mobile: 375px
 
 ## Available Scripts
 
